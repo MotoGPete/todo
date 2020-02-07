@@ -34,14 +34,15 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'paloma', '~> 5.1.0'
-group :development, :test do
+gem 'jquery-rails'
+ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
-  gem 'jquery-rails'
-  gem 'rails-ujs'
-end
+  
+
+ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
