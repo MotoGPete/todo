@@ -40,7 +40,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_bot_rails'
   gem 'jquery-rails'
-  gem 'jquery'
+  gem 'rails-ujs'
 end
 
 group :development do
